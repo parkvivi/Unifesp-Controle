@@ -1,20 +1,20 @@
 A = [1 2 3; 4 5 6; 7 8 9]
 det(A) % determinante da matriz
 
-% para float não se faz igualdade, se faz desigualdade com tolerâncias:
+% para float nÃ£o se faz igualdade, se faz desigualdade com tolerÃ¢ncias:
 % ex: 2-t < x < 2+t => |x-2| < t,
-% onde x é(float, double) e t é a tolerância
+% onde x Ã©(float, double) e t Ã© a tolerÃ¢ncia
 
 % eigenvalue, eigenvector
 [v, a] = eig(A)
-% v e a são matrizes de autovetores e autovalores
-% cada coluna de v é um autovetor
-% cada elemento da diagonal principal de a é um autovalor
-% 'help eig' para mais informações
+% v e a sÃ£o matrizes de autovetores e autovalores
+% cada coluna de v Ã© um autovetor
+% cada elemento da diagonal principal de a Ã© um autovalor
+% 'help eig' para mais informaÃ§Ãµes
 
 inv(A)
 
-% comparação matricial:
+% comparaÃ§Ã£o matricial:
 B = [1 2 3; 4 5 6; 1 2 3]
 A == B % retorna uma matriz com 1 para os elementos iguais
 % e 0 para os diferentes
@@ -39,7 +39,7 @@ else
     disp('fogo')
 end
 
-% funções (exemplo: área)
+% funÃ§Ãµes (exemplo: Ã¡rea)
 function [S, P] = area(a,b,c)
 
 % ...
